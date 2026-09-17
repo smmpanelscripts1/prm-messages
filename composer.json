@@ -1,0 +1,26 @@
+{
+    "name": "prm/messages",
+    "description": "Private direct messages between forum members.",
+    "type": "flarum-extension",
+    "version": "0.1.0",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prm\\Messages\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Private Messages",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-envelope",
+                "backgroundColor": "#1f6f8b",
+                "color": "#fff"
+            }
+        }
+    }
+}
