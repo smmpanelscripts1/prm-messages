@@ -1,0 +1,42 @@
+prm-messages:
+  admin:
+    permissions:
+      start_label: Kullanıcılara özel mesaj gönderme
+    settings:
+      public_chat_label: Genel sohbet
+      public_chat_help: Açıkken üyeler ortak bir sohbet odasında yazabilir. Kapalıyken sayfa ve menü gizlenir.
+  forum:
+    header: Mesajlar
+    title: Özel mesajlar
+    empty: Henüz özel mesajın yok.
+    compose: Yeni mesaj
+    search_user: Kullanıcı ara
+    search_placeholder: Kullanıcı adı yaz…
+    no_users: Kullanıcı bulunamadı.
+    to: Kime
+    subject: Konu
+    subject_placeholder: Örn. Ödeme hk. (isteğe bağlı)
+    message: Mesaj
+    send: Gönder
+    sending: Gönderiliyor…
+    sent: Mesaj gönderildi.
+    back: Gelen kutusu
+    hide: Sohbeti gizle
+    hide_confirm: Bu sohbet gelen kutusundan kalkar. Karşı taraf görmeye devam eder.
+    you: Sen
+    type_placeholder: Bir mesaj yaz… (Enter gönderir)
+    unread: Okunmamış
+    user_controls:
+      message: Mesaj gönder
+    chat:
+      header: Sohbet
+      title: Genel sohbet
+      intro: Tüm üyelerin yazabildiği ortak sohbet.
+      empty: Henüz mesaj yok. İlk yazan sen ol.
+      placeholder: Herkese yaz… (Enter gönderir)
+      login: Yazmak için giriş yapmalısın.
+      disabled: Genel sohbet kapalı.
+      delete: Sil
+    notifications:
+      received: "{username} sana mesaj gönderdi"
+      notify_label: Biri bana özel mesaj gönderdiğinde

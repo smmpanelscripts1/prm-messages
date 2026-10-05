@@ -1,0 +1,46 @@
+{
+    "name": "prm/messages",
+    "description": "Private direct messages between forum members.",
+    "type": "flarum-extension",
+    "version": "2.0.0",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0.0-rc.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prm\\Messages\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Private Messages",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-envelope",
+                "backgroundColor": "#1f6f8b",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": false,
+                "githubActions": false,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}

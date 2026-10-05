@@ -1,0 +1,260 @@
+.PmBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: #e74c3c;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.PmPage {
+  padding: 20px 0 40px;
+}
+
+.PmPage-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.PmPage-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.PmPage-search {
+  margin-bottom: 14px;
+}
+
+.PmInbox {
+  background: var(--control-bg);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.PmInbox-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--body-bg);
+  color: inherit;
+}
+
+.PmInbox-item:hover {
+  background: var(--body-bg);
+}
+
+.PmInbox-item.is-unread {
+  background: rgba(52, 152, 219, 0.12);
+}
+
+.PmInbox-item .Avatar {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.PmInbox-body {
+  min-width: 0;
+  flex: 1;
+}
+
+.PmInbox-name {
+  font-weight: 700;
+}
+
+.PmInbox-subject {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.PmInbox-preview {
+  color: var(--muted-color);
+  font-size: 13px;
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.PmInbox-meta {
+  color: var(--muted-color);
+  font-size: 12px;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.PmThreadPage-back {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--muted-color);
+}
+
+.PmThreadPage-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.PmThreadPage-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.PmThreadPage-user .Avatar {
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+}
+
+.PmThreadPage-user h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.PmThreadPage-subject {
+  color: var(--muted-color);
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.PmThread {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 280px;
+  max-height: 62vh;
+  overflow-y: auto;
+  padding: 12px;
+  margin-bottom: 14px;
+  background: var(--control-bg);
+  border-radius: var(--border-radius);
+}
+
+.PmBubble {
+  max-width: 82%;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: var(--body-bg);
+}
+
+.PmBubble--own {
+  align-self: flex-end;
+  background: rgba(52, 152, 219, 0.18);
+}
+
+.PmBubble-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: var(--muted-color);
+}
+
+.PmBubble-body {
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.45;
+}
+
+.PmComposer textarea {
+  width: 100%;
+  min-height: 72px;
+  resize: vertical;
+}
+
+.PmComposer-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.ComposePmModal textarea {
+  width: 100%;
+  min-height: 110px;
+}
+
+.ComposePmModal-results {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  background: var(--control-bg);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.ComposePmModal-results button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ComposePmModal-results button:hover,
+.ComposePmModal-results button.is-selected {
+  background: var(--body-bg);
+}
+
+.ComposePmModal-results .Avatar {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.ComposePmModal-selected {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.PublicChatPage-head h2 {
+  margin: 0 0 6px;
+}
+
+.PublicChatPage-intro {
+  color: var(--muted-color);
+  font-size: 13px;
+  margin: 0 0 14px;
+}
+
+.PublicChatPage .PmThread {
+  max-height: 70vh;
+}
+
+.PublicChatPage .PmBubble {
+  max-width: 90%;
+}
+
+.PmBubble-delete {
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted-color);
+  cursor: pointer;
+  font-size: 12px;
+}

@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "@prm/messages",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "flarum-tsconfig": "^2.0.0",
+    "flarum-webpack-config": "^3.0.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
